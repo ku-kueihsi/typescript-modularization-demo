@@ -1,7 +1,7 @@
 require.config({
-    baseUrl: "./script",
+    // baseUrl: "./script",
     paths: {
-        'jquery' : 'libs/jquery-2.1.3.min'
+        'jquery' : './libs/jquery-2.1.4.min'
     },
     shim: {
         'jquery': {
